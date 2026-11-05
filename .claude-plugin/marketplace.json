@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-kit",
+  "owner": {
+    "name": "Isaac Bacon",
+    "email": "bakonblitzgithub@gmail.com"
+  },
+  "description": "The skill-kit plugin: list, log, lint and create your own Claude Code skills.",
+  "plugins": [
+    {
+      "name": "skill-kit",
+      "description": "skills (list every installed plugin's skills, run logs, lint the skill rules), create (a new skill from a one-line explanation, Python-first and tested).",
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}
